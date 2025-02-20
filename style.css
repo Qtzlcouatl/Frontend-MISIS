@@ -1,0 +1,77 @@
+/*Прижатие футера*/
+* {
+margin: 0;
+padding: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+.content {
+flex: 1 0 auto;
+}
+.footer {
+flex: 0 0 auto;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: crimson; 
+}
+
+.menu li{
+    background-color: bisque;
+    list-style: none;
+    
+}
+
+.menu{
+    background-color: bisque;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button{
+    background: cornflowerblue;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+input {
+    background: cornflowerblue;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 10px 15px 15px 10px
+    
+}
+a{
+    text-decoration: none;
+}
+.forma form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
